@@ -3,17 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KOPPEE - Coffee Shop HTML Template</title>
+    <title>NGOOPI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
 
     <!-- Favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" type="image/png" href="img/logo.png">
+
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -31,25 +36,19 @@
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">KOPPEE</h1>
+                <h1 class="m-0 display-4 text-uppercase text-white">NGOOPI</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="menu.html" class="nav-item nav-link active">Menu</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu text-capitalize">
-                            <a href="reservation.html" class="dropdown-item">Reservation</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <div class="navbar-nav ml-auto p-2">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link a">Tentang NGOOPI</a>
+                    <a href="service.html" class="nav-item nav-link">Pelayanan NGOOPI</a>
+                    <a href="menu.html" class="nav-item nav-link">Menu NGOOPI</a>
+                    <a href="reservation.html" class="nav-item nav-link">Reservasi NGOOPI</a>
+                    <a href="testimonial.html" class="nav-item nav-link">Testimoni NGOOPI</a>
                 </div>
             </div>
         </nav>
@@ -57,58 +56,103 @@
     <!-- Navbar End -->
 
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Menu</h1>
-            <div class="d-inline-flex mb-lg-5">
-                <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
-                <p class="m-0 text-white px-2">/</p>
-                <p class="m-0 text-white">Menu</p>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">Menjaga Anda Agar Tetap Waras</h2>
+                        <h1 class="display-1 text-white m-0">NGOOPI</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">Menjaga Anda Agar Tetap Waras</h2>
+                        <h1 class="display-1 text-white m-0">NGOOPI</h1>
+                    </div>
+                </div>
             </div>
+            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
     </div>
-    <!-- Page Header End -->
+    <!-- Carousel End -->
 
 
     <!-- Menu Start -->
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
-                <h1 class="display-4">Competitive Pricing</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu NGOOPI</h4>
+                <h1 class="display-4">Harga Ramah Dikantong</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <h1 class="mb-5">Hot Coffee</h1>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jfif" alt="">
+                            <h5 class="menu-price">35K</h5>
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Kopi Toraja - Kehangatan Bumi Sulawesi dalam Secangkir Kopi</h4>
+                            <p class="m-0">Rasakan keberanian rasa dari tanah vulkanik Toraja. Dark chocolate, rempah,
+                                dan nuance kayu khas yang menghangatkan jiwa, cocok untuk menemui malam atau memulai
+                                hari penuh keyakinan.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jfif" alt="">
+                            <h5 class="menu-price">60K</h5>
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Kopi Papua Wamena - Petualangan Rasa dari Pegunungan Tengah Papua</h4>
+                            <p class="m-0">Seperti ekspedisi ke jantung Papua, kopi ini menawarkan karakter earthy yang
+                                dalam dengan nuance tobacco dan cokelat. Acidty yang rendah membuatnya smooth dan mudah
+                                dinikmati.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jfif" alt="">
+                            <h5 class="menu-price">55K</h5>
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Kopi Flores Bajawa - Keanggunan Vulkanik dari Pulau Flores</h4>
+                            <p class="m-0">Ditanam di lereng Gunung Inerie yang subur, kopi ini menawarkan keseimbangan
+                                sempurna antara sweetness dan complexity. Rasakan harmony rasa cokelat, kacang, dan
+                                spice yang halus dengan aftertaste yang clean dan memanjang.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-4.jfif" alt="">
+                            <h5 class="menu-price">35K</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Kopi Gayo - Jiwa Aceh dalam Secangkir Kopi</h4>
+                            <p class="m-0">Full-bodied dengan rasa dark chocolate dan hint rempah. Aftertaste yang halus
+                                dan memanjang. Cocok untuk yang menyukai kopi robust namun balanced.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-5.jfif" alt="">
+                            <h5 class="menu-price">50K</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Kopi Kintamani - Segarnya Buah Bali dalam Secangkir Kopi</h4>
+                            <p class="m-0">Bright acidity adalah jiwa dari kopi ini, diikuti dengan aroma floral dan
+                                rasa buah sitrus yang subtle. Body-nya medium dan tidak terlalu berat, membuatnya sangat
+                                mudah dinikmati dan menyegarkan.</p>
                         </div>
                     </div>
                 </div>
@@ -116,32 +160,61 @@
                     <h1 class="mb-5">Cold Coffee</h1>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-6.jfif" alt="">
+                            <h5 class="menu-price">65K</h5>
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Kopi Yirgacheffe Ethiopia - Warisan Kopi dari Tanah Asalnya</h4>
+                            <p class="m-0">Dari tanah tempat kopi pertama kali ditemukan, Yirgacheffe menghadirkan
+                                cerita panjang warisan kopi Ethiopia. Dengan proses washed yang tradisional, kopi ini
+                                mempertahankan karakter asli.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-7.jfif" alt="">
+                            <h5 class="menu-price">35K</h5>
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Kopi Colombian Supremo - Kenyamanan dalam Setiap Tegukan</h4>
+                            <p class="m-0">Supremo dari Kolombia menghadirkan kelembutan rasa dengan karakter halus dan
+                                creamy. Rasa cokelat manis, gula merah, dan kacang almond berpadu harmonis dengan
+                                acidity yang ringan, menghasilkan sensasi yang menenangkan.</p>
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
                         <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-8.jfif" alt="">
+                            <h5 class="menu-price">40K</h5>
                         </div>
                         <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
+                            <h4>Kopi Santos Brasil - Kekayaan Rasa dari Tanah Tropis</h4>
+                            <p class="m-0">Tumbuh di tanah subur Brasil, Santos memiliki karakter earthy yang khas
+                                dengan sentuhan cokelat pekat, roasted nuts, dan sedikit nuansa tembakau.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-9.jfif" alt="">
+                            <h5 class="menu-price">55K</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Kopi Sumatera Mandheling - Jejak Rasa yang Tak Terlupakan</h4>
+                            <p class="m-0">Dari tanah vulkanik Sumatera, Mandheling menawarkan rasa yang kaya dan dalam.
+                                Campuran aroma cokelat hitam, rempah, serta kesan earthy yang kuat menghasilkan
+                                aftertaste panjang dan memorable.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-10.jfif" alt="">
+                            <h5 class="menu-price">45K</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Antigua Guatemala - Kelembutan Elegan dari Pegunungan</h4>
+                            <p class="m-0">Ditanam di dataran tinggi Guatemala, kopi Antigua menawarkan kelembutan rasa
+                                dengan aroma cokelat susu, roasted nuts, dan sedikit floral. Acidity yang bersih berpadu
+                                dengan body medium, menciptakan aftertaste yang halus dan elegan.</p>
                         </div>
                     </div>
                 </div>
@@ -155,46 +228,34 @@
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">NGOOPI</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Jl. Merdeka No. 123, Jakarta Pusat
+                    (Seberang Mall Grand Indonesia)</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+62 812-3456-7890</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>NGOOPI@gmail.com</p>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">FOLLOW KAMI</h4>
+                <p>Untuk Informasi Lebih Lanjut</p>
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i
+                            class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
+            <div class="col-lg-6 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Jam Operasional</h4>
                 <div>
-                    <h6 class="text-white text-uppercase">Monday - Friday</h6>
-                    <p>8.00 AM - 8.00 PM</p>
-                    <h6 class="text-white text-uppercase">Saturday - Sunday</h6>
-                    <p>2.00 PM - 8.00 PM</p>
+                    <h6 class="text-white text-uppercase">Senin - Jumat | 08.00 - 23.00 WIB</h6>
+                    <p>Breakfast Special | 07.00 - 09.00 WIB</p>
+                    <h6 class="text-white text-uppercase">Sabtu - Minggu | 10.00 - 00.00 WIB</h6>
+                    <p>Live Music | 19.00 - 21.00 WIB</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Domain</a>. All Rights Reserved.</a></p>
-            <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></a></p>
         </div>
     </div>
     <!-- Footer End -->
